@@ -38,6 +38,14 @@ function lint(files) {
     .pipe($.if(!browserSync.active, $.eslint.failAfterError()));
 }
 
+gulp.task('browser-sync', function(){
+  browserSync.init({
+    proxy:'http://localhost/8080devwp'
+  });
+});
+
+
+
 gulp.task('lint', () => {
   return lint('app/scripts/**/*.js')
     .pipe(gulp.dest('app/scripts'));
@@ -85,14 +93,16 @@ gulp.task('extras', () => {
     dot: true
   }).pipe(gulp.dest('dist'));
 });
+     
 
 gulp.task('clean', del.bind(null, ['.tmp', 'dist']));
+
 
 gulp.task('serve', () => {
   runSequence(['clean', 'wiredep'], ['styles', 'scripts', 'fonts'], () => {
     browserSync.init({
       notify: false,
-      port: 9000,
+      port: 8080,
       server: {
         baseDir: ['.tmp', 'app'],
         routes: {
@@ -128,7 +138,7 @@ gulp.task('serve:test', ['scripts'], () => {
   browserSync.init({
     notify: false,
     port: 9000,
-    ui: false,
+    ui: true,
     server: {
       baseDir: 'test',
       routes: {

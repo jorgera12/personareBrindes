@@ -1,0 +1,625 @@
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  overflow-x: hidden;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.form-control{
+  width: 70%;
+  margin-left: 1em;
+}
+
+.modal-form{
+
+  margin-left: 1em;
+}
+/* Custom page header */
+.navbar-fixed-top{
+  background-image: linear-gradient(to right, rgba(181,181,181), rgba(56,70,156));
+}
+
+.navbar-right{
+  text-transform: uppercase;
+}
+.navbar-right li a{
+  color: white !important;
+}
+
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.first-content{
+  padding-top: 50px;
+}
+.second-content{
+  padding-top: 50px;
+}
+.second-content-description{
+  padding-left: 11em;
+  padding-top: 2em;
+}
+.entrega, .desconto, .novidades{
+  background-color: green;
+  margin-right: 2em;
+  width: 20em;
+  height: 7em;
+}
+
+/*#first-slide-image{
+  height: 100%;
+}
+
+#second-slide-image{
+  height: 100%;
+}
+*/
+.destaque_1_image{
+  height:16em;
+}
+
+.destaque_2_image{
+  height:16em;
+  margin-left: 3em;
+}
+
+.destaque_3_image{
+  height:16em;
+  margin-left: 2em;
+}
+
+.novidades_1_image{
+  height: 16em;
+
+}
+
+.novidades_2_image{
+  height: 16em;
+}
+
+.novidades_3_image{
+  height: 16em;
+}
+
+.maisVendidos_1_image{
+  height: 16em;
+}
+
+.maisVendidos_2_image{
+  height:16em;
+  margin-left: 5em;
+}
+
+.maisVendidos_3_image{
+  height:16em;
+
+}
+
+.inital-content{
+  margin: 0 30px 0 30px;
+}
+
+.customhr hr{
+  color: black;
+  background-color: black;
+  height: 3px;
+}
+
+#caneca_chopp{
+  width: 60%;
+  height: 60%;
+}
+
+.chopp-container ul{
+  list-style-type: none;
+}
+
+.chopp-container , .porcelana-container{
+  padding-top: 80px;
+}
+
+
+#tulipa_chopp1{
+  width: 30%;
+  margin-left: 70px;
+}
+
+#tulipa_chopp2{
+  width: 30%;
+  margin-left: 70px;
+}
+
+
+
+/*IMAGENS VESTUÁRIO*/
+
+#camisetas_image{
+  width: 70%;
+}
+
+#jalecos_image{
+  width: 71%;
+}
+
+#chinelos_image{
+  width: 71%;
+}
+
+#jaqueta_image{
+  width: 70%;
+}
+
+#polos_image{
+  width:56%;
+  margin-left: 21px;
+}
+
+#moletons_image{
+  width: 46%;
+  margin-left: 40px;
+}
+
+#aventais_image{
+  width: 39%;
+  margin-left: 40px;
+}
+
+/*LISTA VESTUARIO*/
+
+.clothes-container{
+  padding-left: 50px;
+}
+
+.clothes-container ul{
+  list-style-type: none;
+}
+
+#first-vestuario-list{
+  padding-top: 60px;
+}
+
+#second-vestuario-list{
+  padding-top: 30px;
+}
+
+#third-vestuario-list{
+  padding-top: 30px;
+}
+
+/*PORCELANA IMAGENS*/
+
+#azuleo_image{
+  width:70%;
+}
+
+#canecaspersonalizadas_image{
+  width:63%;
+}
+
+#canecaconica_image{
+  width:47%;
+  margin-left: 21px;
+}
+
+#canecamagica_image{
+  width:90%;
+  margin-left: -30px;
+}
+
+/*LISTA PORCELANA*/
+
+#first-porcelana-list{
+  padding-top: 40px;
+}
+
+#second-porcelana-list{
+  padding-top: 40px;
+}
+
+.porcelana-container ul{
+  list-style-type: none;
+}
+
+
+
+/*LISTA ELETRONICOS */
+
+.electronics-container ul{
+  list-style-type: none;
+  padding-top: 70px;
+}
+
+
+
+
+/*ELETRONICO IMAGENS*/
+#pendrive_image{
+  width:73%;
+}
+
+#pendrive1_image{
+  width:60%;
+}
+
+#pendrive2_image{
+  width:55%;
+}
+
+#pendrive3_image{
+  width:60%;
+}
+
+#powerbank_image{
+  width:41%;
+  margin-left: 40px;
+}
+
+#powerbank2_image{
+  width:52%;
+}
+
+#caixadesom_image{
+  width:60%;
+}
+
+
+
+/*FORM*/
+
+.form{
+  padding-left: 30%;
+  padding-right: 20%;
+  padding-top: 30px;
+  width: 100%;
+}
+
+
+#input_form_nome,
+#input_form_email, #input_form_telefone, 
+#input_form_produto1, #input_form_produto2, 
+#input_form_produto3{
+  width: 80%;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid black;
+  /*padding-bottom:30px;*/
+}
+
+#input_description{
+  height:200px;
+  width: 80%;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+
+/* Make the masthead heading the same height as the navigation */
+
+
+/*products list*/
+
+#chopp-list li, #tulipa-list li, #tulipa2-list li, {
+  display: inline;
+  list-style-type: none;
+  /*padding-left:4em;*/
+
+}
+.descricao h4{
+  padding-left: 2em;
+
+}
+
+.preco button{
+  margin-left: 2em;
+  background-color: green;
+  color: white;
+}
+
+.chopp-itens, .porcelana-itens {
+  padding-left: 6em;
+}
+
+.tulipa-itens{
+  padding-left: 6em;
+}
+
+.tulipa2-itens{
+  padding-left: 6em;
+}
+
+
+
+/*end products list*/
+
+
+
+
+/* Custom page footer */
+
+
+/* Customize container */
+@media (min-width: 768px) {
+  
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 480px){
+
+
+
+  #first-slide-image{
+    height: 50%;
+  }
+
+  #second-slide-image{
+    height: 50%;
+  }
+
+  .second-content-description{
+    padding-left: 0;
+    width: 100%;
+    padding-top: 0px;
+  }
+  .entrega, .desconto, .novidades{
+    margin-top: 10px;
+  }
+
+  .clothes-container{
+    padding-left: 0;
+
+  }
+
+  .preco button{
+    margin-left: 0;
+  }
+
+  .descricao h4{
+    padding-left: 0;
+  }
+
+  #camisetas_image{
+    margin-left: 1em;
+  }
+
+  #jalecos_image{
+    margin-left: 1em;
+    padding-top: 2em;
+  }
+
+  #chinelos_image{
+    margin-left: 1em;
+    padding-top: 2em;
+  }
+
+  #jaqueta_image{
+    margin-left: 1em;
+    padding-top: 2em;
+  }
+
+  #polos_image{
+    margin-left: 3em;
+    padding-top: 2em;
+  }
+
+  #moletons_image{
+    margin-left: 3em;
+    padding-top: 2em;
+  }
+
+  #aventais_image{
+    margin-top: -10px;
+    margin-left: 60px;
+    
+  }
+
+
+  #first-porcelana-list{
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  .porcelana-itens{
+    padding-left: 20px;
+  }
+
+  #azuleo_image{
+    width: 87%;
+  }
+
+  #canecaspersonalizadas_image{
+    width: 87%;
+    padding-top: 30px;
+  }
+
+  #canecaconica_image{
+    width: 60%;
+    padding-top: 25px;
+  }
+
+  #canecamagica_image{
+    width: 100%;
+  }
+
+
+  #pendrive1_image{
+    padding-top: 20px;
+    margin-left: 20px;
+  }
+
+  #pendrive2_image{
+    width: 73%;
+  }
+
+  #pendrive3_image{
+    width: 72%;
+  }
+
+  #powerbank_image{
+    width: 70%;
+    margin-left: 0px;
+  }
+
+  #powerbank2_image{
+    width: 69%;
+    padding-top: 30px;
+  }
+
+  #caixadesom_image{
+    margin-left: 28px;
+  }
+  .electronics-container ul{
+    padding-top: 40px;
+  }
+
+  .chopp-itens{
+    padding-left: 0px;
+  }
+
+  #tulipa_chopp1{
+    padding-top: 30px;
+  }
+
+  #tulipa_chopp2{
+    padding-top: 30px;
+  }
+
+
+}
+
+
+@media screen and(max-width: 767px){
+
+  .clothes-container{
+    padding-left: 0;  
+  }
+  .preco button{
+    margin-left: 0;
+  }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 979px){
+
+
+
+  .clothes-container{
+    padding-top: 5em;
+  }
+
+  #first-vestuario-list{
+    padding-left: 8em;
+  }
+
+  .descricao{
+    padding-left: 5em;
+  }
+
+  .preco{
+    padding-left: 5em;
+  }
+
+  #second-vestuario-list{
+    padding-left: 8em;
+  }
+
+  #third-vestuario-list{
+    padding-left: 8EM;
+  }
+
+  #camisetas_image{
+    margin-left: 1em;
+  }
+
+  #jalecos_image{
+    margin-left: 1em;
+    padding-top: 2em;
+  }
+
+  #chinelos_image{
+    margin-left: 1em;
+    padding-top: 2em;
+  }
+
+  #jaqueta_image{
+    margin-left: 1em;
+    padding-top: 2em;
+  }
+
+  #polos_image{
+    margin-left: 3em;
+    padding-top: 2em;
+  }
+
+  #moletons_image{
+    margin-left: 5em;
+    padding-top: 2em;
+  }
+
+  #aventais_image{
+    margin-top: -10px;
+    margin-left: 80px;
+    
+  }
+
+  #first-porcelana-list{
+    /*padding-left: 6em;*/
+  }
+
+   #azuleo_image{
+    width: 87%;
+  }
+
+  #canecaspersonalizadas_image{
+    width: 87%;
+    padding-top: 30px;
+  }
+
+  #canecaconica_image{
+    width: 60%;
+    padding-top: 25px;
+  }
+
+  #canecamagica_image{
+    width: 100%;
+  }
+
+}
+
+
+

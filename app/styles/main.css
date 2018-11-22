@@ -20,6 +20,15 @@ body {
   padding-left: 15px;
 }
 
+#whatsApp_logo{
+  width: 1.5em;
+  margin-top: -0.3em;
+}
+
+#phone_number{
+  font-size: 1.1em;
+}
+
 .form-control{
   width: 70%;
   margin-left: 1em;
@@ -387,6 +396,20 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+
+  .special-projects{
+  padding-top: 5em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.special-projects-title{
+  padding-top: 10em;
+  margin: 0 auto;
+  width: 90%;
+   
+}
+
 }
 
 @media screen and (max-width: 480px){
@@ -530,6 +553,24 @@ body {
     padding-top: 30px;
   }
 
+  .special-projects{
+  padding-top: 5em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.special-projects-title{
+  padding-top: 4em;
+  margin: 0 auto;
+  width: 95%;
+ }
+.container{
+  padding-left: 0px;
+  padding-right: 0px;
+}   
+.navbar-brand{
+  font-size: 11px;
+}
 
 }
 

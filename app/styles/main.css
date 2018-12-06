@@ -20,6 +20,15 @@ body {
   padding-left: 15px;
 }
 
+#main_logo_image{
+  width: 18%;
+  margin-right: 0.3em;
+}
+
+.main_logo_text{
+  padding-top: 3em;
+}
+
 #whatsApp_logo{
   width: 1.5em;
   margin-top: -0.3em;
@@ -93,25 +102,31 @@ body {
 */
 .destaque_1_image{
   height:16em;
+  margin-left: 2em;
 }
 
 .destaque_2_image{
   height:16em;
   margin-left: 3em;
+  padding-top: 2em;
 }
 
 .destaque_3_image{
   height:16em;
   margin-left: 2em;
+  padding-top: 1em;
 }
 
 .novidades_1_image{
   height: 16em;
+  margin-left: 2em
 
 }
 
 .novidades_2_image{
   height: 16em;
+  padding-top: 1em;
+
 }
 
 .novidades_3_image{
@@ -125,11 +140,12 @@ body {
 .maisVendidos_2_image{
   height:16em;
   margin-left: 5em;
+  padding-top: 1em;
 }
 
 .maisVendidos_3_image{
   height:16em;
-
+  padding-top: 2em;
 }
 
 .inital-content{
@@ -414,7 +430,9 @@ body {
 
 @media screen and (max-width: 480px){
 
-
+  .navbar-inverse .navbar-collapse{
+    padding-left: 3em;
+  }
 
   #first-slide-image{
     height: 50%;
@@ -439,11 +457,12 @@ body {
   }
 
   .preco button{
-    margin-left: 0;
+    margin-left: 2em;
   }
 
   .descricao h4{
-    padding-left: 0;
+    padding-left: 2em
+    ;
   }
 
   #camisetas_image{
@@ -584,6 +603,9 @@ body {
     margin-left: 0;
   }
 
+  .navbar-inverse .navbar-collapse{
+    padding-left: 3em;
+  }
 
 }
 
